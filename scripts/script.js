@@ -1,11 +1,14 @@
 ;(function ($) {
     $(function () {
-        
+
         // Calculate promoHeight
         let windowHeight = $(window).height(),
             headerHeight = $('.header').height(),
-            promoHeight = windowHeight - headerHeight;
-        $('.promo').css('min-height', promoHeight + 'px');
+            sectionHeight = windowHeight - headerHeight;
+        $('.promo').css('min-height', sectionHeight + 'px');
+        if (window.matchMedia('(min-width: 767.1px) and (max-width: 1200px)').matches) {
+            $('#map').css('height', sectionHeight + 'px');
+        }
 
         // Initializing the anchor link function
         let anchorLink = function (event) {

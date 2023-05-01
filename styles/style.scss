@@ -1507,6 +1507,9 @@ section {
     }
 
     &__map-wrapper {
+        @media (max-width: 1200px) {
+            height: 100vh;
+        }
         @media (max-width: 767px) {
             width: 100%;
             height: auto;

@@ -1847,6 +1847,11 @@ section:not(:first-of-type, :last-of-type) {
     width: 100%;
   }
 }
+@media (max-width: 1200px) {
+  .footer__map-wrapper {
+    height: 100vh;
+  }
+}
 @media (max-width: 767px) {
   .footer__map-wrapper {
     width: 100%;
