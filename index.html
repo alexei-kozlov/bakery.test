@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="uk">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="пекар, домаш, випічка, вареник, пельмен, тісто">
+		<meta name="description"
+					content="У нас завжди є найсвіжіша випічка власного виробництва на будь-який смак. Також можна замовити домашні вареники, пельмені, короваї, листове тісто та багато іншого.">
+		<meta name="theme-color" content="#FFD324">
+
+		<link rel="icon" href="img/favicon.ico">
+		<link rel="stylesheet" href="styles/style.css">
+		<title>Пекарня чудових ідей! - Найсвіжіша випічка власного виробництва на будь-який смак</title>
+</head>
+
+<body>
+
+<header class="header">
+		<nav class="nav header__nav" id="navbar" role="navigation">
+				<div class="container-inner">
+						<a href="/" class="header__logo">
+								<picture>
+										<source
+												srcset="img/logo-sm.svg"
+												media="(max-width: 767px)">
+										<img class="header__logo-img" src="img/logo.svg" alt="Логотип Пекарні">
+								</picture>
+						</a>
+
+						<a class="header__tel" href="tel:+380999999999">(099) 999 99 99</a>
+
+						<div class="header__dropdown dropdown-wrapper">
+								<details class="dropdown">
+										<summary>
+												<svg class="dropdown-icon" xmlns="http://www.w3.org/2000/svg"
+														 width="16" height="22" viewBox="0 0 16 22">
+														<use href="img/icons/icons.svg#tel-icon"/>
+												</svg>
+										</summary>
+										<ul class="dropdown-list">
+												<li class="dropdown-item" tabindex="1">
+														<a href="tel:+380999999999" class="dropdown-link">(099) 999 99 99</a>
+												</li>
+										</ul>
+								</details>
+						</div>
+
+						<ul class="nav__list">
+								<li class="nav__item">
+										<a class="nav__menu-link" href="index.html#about">Про компанію</a>
+								</li>
+								<li class="nav__item">
+										<a class="nav__menu-link" href="index.html#preferences">Чому ми?</a>
+								</li>
+								<li class="nav__item">
+										<a class="nav__menu-link" href="index.html#work">Робота в компанії</a>
+								</li>
+								<li class="nav__item">
+										<a class="nav__menu-link" href="index.html#contacts">Контакти</a>
+								</li>
+						</ul>
+
+						<a href="#assortment" class="header__btn-assortment btn nav-link-js">
+								<span class="header__btn-assortment--text">Асортимент</span>
+								<svg xmlns="http://www.w3.org/2000/svg" width="21" height="11" viewBox="0 0 21 11"
+										 class="header__btn-assortment--icon arrow-right-icon">
+										<use href="img/icons/icons.svg#arrow-right-icon"/>
+								</svg>
+								<svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31"
+										 class="header__btn-assortment--icon shopping-cart-icon">
+										<use href="img/icons/icons.svg#shopping-cart-icon"/>
+								</svg>
+						</a>
+
+						<button class="nav__btn-field" type="button" aria-label="Open Menu" aria-expanded="false">
+								<span class="nav__btn-icon"></span>
+						</button>
+				</div>
+		</nav>
+</header>
+
+<main>
+		<h1 class="visually-hidden">Основна інформація</h1>
+
+		<section id="promo" class="promo">
+				<div class=" container-inner">
+						<div class="promo__text-block">
+								<h2 class="promo__title title">
+										<span class="promo__uppertitle">Пекарня</span>
+										<br>
+										<span class="promo__undertitle">чудових ідей!</span>
+								</h2>
+								<p class="promo__text">
+										Найсвіжіша випічка власного виробництва на будь-який смак.
+										Також у нас можна замовити домашні вареники, пельмені, короваї, листове тісто і багато іншого.
+								</p>
+								<a href="#feedback" class="btn promo__btn nav-link-js">Хочу спробувати!</a>
+						</div>
+				</div>
+		</section>
+
+		<section id="about" class="about section-info">
+				<div class="container-inner">
+						<div class="about__info info">
+								<h2 class="info__title title">Про нашу пекарню</h2>
+								<p class="info__text">Наша пекарня це мережа, яка завойовує серця любителів теплої оригінальної випічки.</p>
+								<p class="info__text">Ми готуємо кожен день, не залишаючи нічого на завтра. Все що ви бачите на прилавку - приготовленно вранці.</p>
+								<p class="info__text">Ми не економимо на продуктах і кадрах. Ми любимо своїх гостей. Ми знаємо що таке смачна випічка.
+										Ми даруємо вас своє тепло кожен день.</p>
+						</div>
+						<div class="section-info__image-wrapper about__image-wrapper about__grid-list">
+								<div class="about__grid-item about__grid-item--large">
+										<img class="section-info__image"
+												 src="img/cookies-chocolate-with-hazelnuts.jpg"
+												 alt="Шоколадне печиво з горіхами" width="760" height="662">
+								</div>
+								<div class="about__grid-item about__grid-item--small-1">
+										<img class="section-info__image"
+												 src="img/fresh-baguette.jpg"
+												 alt="Свіжий багет" width="444" height="316">
+								</div>
+								<div class="about__grid-item about__grid-item--small-2">
+										<img class="section-info__image"
+												 src="img/croissant-wheat-table.jpg"
+												 alt="Круасан на столі" width="444" height="316">
+								</div>
+						</div>
+				</div>
+		</section>
+
+		<section id="assortment" class="assortment">
+				<div class="container-inner">
+						<h2 class="assortment__title title">Асортимент</h2>
+						<div class="assortment__categories-list">
+								<button type="button" data-filter="all" class="btn assortment__categories-item active">
+										Весь асортимент
+								</button>
+								<button type="button" data-filter="bake" class="btn assortment__categories-item">
+										Випічка
+								</button>
+								<button type="button" data-filter="pelmeni" class="btn assortment__categories-item">
+										Пельмені
+								</button>
+								<button type="button" data-filter="vareniki" class="btn assortment__categories-item">
+										Вареники
+								</button>
+								<button type="button" data-filter="dough" class="btn assortment__categories-item">
+										Тісто
+								</button>
+						</div>
+
+						<ul class="assortment__list">
+								<li data-filter="vareniki" class="assortment__item">
+										<div class="assortment__item-image">
+												<img src="uploads/assortment/vareniki-potato.jpg" alt="Вареники з картоплею">
+										</div>
+										<div class="assortment__item-body">
+												<h3 class="assortment__item-title">Вареники з картоплею</h3>
+												<p class="assortment__item-price">38 грн/кг</p>
+												<button type="button" class="btn assortment__item-btn">Замовити</button>
+										</div>
+								</li>
+								<li data-filter="bake" class="assortment__item">
+										<div class="assortment__item-image">
+												<img src="uploads/assortment/croissant-raspberry-jam.jpg" alt="Круасан з малиновим джемом">
+										</div>
+										<div class="assortment__item-body">
+												<h3 class="assortment__item-title">Круасан з малиновим джемом</h3>
+												<p class="assortment__item-price">62 грн/кг</p>
+												<button type="button" class="btn assortment__item-btn">Замовити</button>
+										</div>
+								</li>
+								<li data-filter="pelmeni" class="assortment__item">
+										<div class="assortment__item-image">
+												<img src="uploads/assortment/pelmeni-beef.jpg" alt="Пельмені з яловичиною">
+										</div>
+										<div class="assortment__item-body">
+												<h3 class="assortment__item-title">Пельмені з яловичиною</h3>
+												<p class="assortment__item-price">84 грн/кг</p>
+												<button type="button" class="btn assortment__item-btn">Замовити</button>
+										</div>
+								</li>
+								<li data-filter="pelmeni" class="assortment__item">
+										<div class="assortment__item-image">
+												<img src="uploads/assortment/pelmeni-pork.jpg" alt="Пельмені зі свининою">
+										</div>
+										<div class="assortment__item-body">
+												<h3 class="assortment__item-title">Пельмені зі свининою</h3>
+												<p class="assortment__item-price">80 грн/кг</p>
+												<button type="button" class="btn assortment__item-btn">Замовити</button>
+										</div>
+								</li>
+								<li data-filter="bake" class="assortment__item">
+										<div class="assortment__item-image">
+												<img src="uploads/assortment/cookies-chocolate.jpg" alt="Печиво">
+										</div>
+										<div class="assortment__item-body">
+												<h3 class="assortment__item-title">Печиво</h3>
+												<p class="assortment__item-price">44 грн/кг</p>
+												<button type="button" class="btn assortment__item-btn">Замовити</button>
+										</div>
+								</li>
+								<li data-filter="bake" class="assortment__item">
+										<div class="assortment__item-image">
+												<img src="uploads/assortment/donuts.jpg" alt="Пончики">
+										</div>
+										<div class="assortment__item-body">
+												<h3 class="assortment__item-title">Пончики</h3>
+												<p class="assortment__item-price">56 грн/кг</p>
+												<button type="button" class="btn assortment__item-btn">Замовити</button>
+										</div>
+								</li>
+								<li data-filter="dough" class="assortment__item">
+										<div class="assortment__item-image">
+												<img src="uploads/assortment/dough-fresh-leafy.jpg" alt="Тісто прісне листкове">
+										</div>
+										<div class="assortment__item-body">
+												<h3 class="assortment__item-title">Тісто прісне листкове</h3>
+												<p class="assortment__item-price">68 грн/кг</p>
+												<button type="button" class="btn assortment__item-btn">Замовити</button>
+										</div>
+								</li>
+								<li data-filter="dough" class="assortment__item">
+										<div class="assortment__item-image">
+												<img src="uploads/assortment/dough-yeast.jpg" alt="Тісто дріжджове">
+										</div>
+										<div class="assortment__item-body">
+												<h3 class="assortment__item-title">Тісто дріжджове</h3>
+												<p class="assortment__item-price">72 грн/кг</p>
+												<button type="button" class="btn assortment__item-btn">Замовити</button>
+										</div>
+								</li>
+						</ul>
+				</div>
+		</section>
+
+		<section id="work" class="work section-info">
+				<div class="container-inner">
+						<div class="work__info info">
+								<h2 class="info__title title">Робота в компанії</h2>
+								<p class="info__text">У нашій пекарні працюються найкращі пекарі України, які люблять свою справу та до випікання випічки підходять з творчим підходом.</p>
+								<p class="info__text">Щодня наші бейкери прокидаються о 5 годині ранку, щоб на сніданок ви завжди снідали свіжою та запашною випічкою.</p>
+								<h3 class="info__subtitle">Завжди потрібні:</h3>
+								<ul class="info__need-list">
+										<li class="info__need-item">Пекарі, кондитери та кур’єри.</li>
+										<li class="info__need-item">Надсилайте резюме і отримайте роботу вашої мрії!</li>
+								</ul>
+								<label class="info__btn btn">
+										Надіслати резюме
+										<input class="visually-hidden" type="file" name="cv">
+								</label>
+						</div>
+						<div class="section-info__image-wrapper work__image-wrapper">
+								<img class="section-info__image work__image" src="img/beautiful-girls-buys-buns-at-the-bakery.jpg"
+										 alt="Спальня" width="1234" height="720">
+						</div>
+				</div>
+		</section>
+
+		<section id="preferences" class="preferences">
+				<h2 class="preferences__title title">Чому наша мережа?</h2>
+				<div class="container-inner">
+						<ul class="preferences__slider">
+								<li class="preferences__item">
+										<div class="preferences__photo-wrapper">
+												<img class="preferences__photo" src="img/preferences/professionals.jpg"
+														 alt="Професіонали" width="444" height="400">
+										</div>
+										<div class="preferences__info">
+												<h3 class="preferences__subtitle">Професіонали</h3>
+												<p class="preferences__text">Ми за якісні кадри и поважаемо працю наших працівників. Вони стараються над вашою випічкою. А ми стараємся спростити їм цю задачу.</p>
+										</div>
+								</li>
+								<li class="preferences__item">
+										<div class="preferences__photo-wrapper">
+												<img class="preferences__photo" src="img/preferences/quality.jpg"
+														 alt="Якість" width="444" height="400">
+										</div>
+										<div class="preferences__info">
+												<h3 class="preferences__subtitle">Якість</h3>
+												<p class="preferences__text">Це найважливіше в нашій роботі. Тільки з якісних продуктів можуть вийти такі шедеври, якими ми полюбляємо частувати вас.</p>
+										</div>
+								</li>
+								<li class="preferences__item">
+										<div class="preferences__photo-wrapper">
+												<img class="preferences__photo" src="img/preferences/study.jpg"
+														 alt="Навчання" width="444" height="400">
+										</div>
+										<div class="preferences__info">
+												<h3 class="preferences__subtitle">Навчання</h3>
+												<p class="preferences__text">Наші робітники постійно навчаються і розвиваються. Що дозволяє нам дивувати вас новинках кожен місяць.</p>
+										</div>
+								</li>
+								<li class="preferences__item">
+										<div class="preferences__photo-wrapper">
+												<img class="preferences__photo" src="img/preferences/sweet-pastry-assortment.jpg"
+														 alt="Широкий асортимент" width="444" height="400">
+										</div>
+										<div class="preferences__info">
+												<h3 class="preferences__subtitle">Широкий асортимент</h3>
+												<p class="preferences__text">Ми випікаємо та готуємо широкий асортимент хлібних виробів: дріжджові, прісні, з борошняними добавками та різноманітних форм.</p>
+										</div>
+								</li>
+						</ul>
+				</div>
+		</section>
+
+		<section id="feedback" class="feedback">
+				<h2 class="feedback__title title">Замовляй прямо зараз!</h2>
+				<div class="container-inner">
+						<div class="feedback__info">
+								<p>Ми зателефонуємо вам для уточнення замовлення і ваших побажань.</p>
+								<p>Разом з вами втілимо будь-які ваші задумки у випічці. Ви порадуєте себе або своїх гостей, а ми
+										будемо щасливі розділити з вами дану мить.</p>
+								<p>Доставка проводиться через самовивіз, <span class="text-link">Glovo</span> та <span class="text-link">Raketa</span>.
+								</p>
+						</div>
+						<form class="feedback__form form">
+								<label class="form__label">
+										<span class="form__label-text">Ваше ім’я*</span>
+										<input class="form__input" type="text" required>
+								</label>
+								<label class="form__label">
+										<span class="form__label-text">Номер телефону*</span>
+										<input class="form__input" type="tel" required>
+								</label>
+								<button class="form__btn btn" type="submit">Надіслати</button>
+						</form>
+				</div>
+		</section>
+</main>
+
+<!-- Modal _START_ -->
+<div class="modal modal__msg-thank">
+		<div class="modal__mask"></div>
+		<div class="modal__container-inner">
+				<div class="modal__header">
+						<button type="button" class="modal__close-btn">
+								<svg class="modal__close-icon" xmlns="http://www.w3.org/2000/svg"
+										 width="20" height="20" viewBox="0 0 14 14">
+										<use href="img/icons/icons.svg#close-icon"/>
+								</svg>
+						</button>
+				</div>
+				<div class="modal__body">
+						<h2 class="modal__title title">Дякуємо за замовлення! :)</h2>
+						<button class="btn modal__btn modal__accept-btn" type="button">Добре!</button>
+				</div>
+		</div>
+</div>
+<!-- Modal _END_ -->
+
+<!-- Button "Up!" _START_ -->
+<button type="button" class="scroll-top">
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 16 18" class="scroll-top__icon">
+				<use href="img/icons/icons.svg#arrow-top"/>
+		</svg>
+</button>
+<!-- Button "Up!" _END_ -->
+
+<footer class="footer">
+		<h2 class="visually-hidden">Footer information</h2>
+		<div class="container-inner">
+				<div id="map" class="footer__map-wrapper footer__column">
+						<div class="visually-hidden">
+								<div id="info-location">
+										<h2 class="footer__map-title title">Пекарня</h2>
+										<p class="footer__map-text">Замовляйте вже зараз та насолоджуйтеся!</p>
+								</div>
+						</div>
+				</div>
+				<div id="contacts" class="footer__inner footer__column">
+						<a href="/" class="footer__logo logo">
+								<img class="footer__logo-img" src="img/logo.svg" alt="Логотип Пекарні">
+						</a>
+						<div class="footer__main-block">
+								<ul class="footer__main-col footer__menu-list">
+										<li class="footer__menu-item">
+												<a href="index.html#about" class="footer__menu-link">Про компанію</a>
+										</li>
+										<li class="footer__menu-item">
+												<a href="index.html#preferences" class="footer__menu-link">Чому ми?</a>
+										</li>
+										<li class="footer__menu-item">
+												<a href="index.html#delivery" class="footer__menu-link">Доставка</a>
+										</li>
+										<li class="footer__menu-item">
+												<a href="index.html#work" class="footer__menu-link">Робота в компанії</a>
+										</li>
+								</ul>
+								<ul class="footer__main-col footer__contacts-list">
+										<li class="footer__contacts-item">
+												<svg class="footer__contacts-icon" xmlns="http://www.w3.org/2000/svg"
+														 width="20" height="24" viewBox="0 0 20 24">
+														<use href="img/icons/icons.svg#location-icon"/>
+												</svg>
+												<address class="footer__address footer__contacts-link" id="address-location">
+														м. Вінниця
+												</address>
+										</li>
+										<li class="footer__contacts-item">
+												<svg class="footer__contacts-icon" xmlns="http://www.w3.org/2000/svg"
+														 width="20" height="22" viewBox="0 0 20 22">
+														<use href="img/icons/icons.svg#calendar-icon"/>
+												</svg>
+												<ul class="footer__contacts-sublist">
+														<li class="footer__contacts-subitem">
+																Пн - Пт. 09:00 - 21:00
+														</li>
+														<li class="footer__contacts-subitem">
+																Сб - Нд. 10:00 - 22:00
+														</li>
+												</ul>
+										</li>
+										<li class="footer__contacts-item">
+												<svg class="footer__contacts-icon" xmlns="http://www.w3.org/2000/svg"
+														 width="16" height="22" viewBox="0 0 16 22">
+														<use href="img/icons/icons.svg#tel-icon"/>
+												</svg>
+												<ul class="footer__contacts-sublist">
+														<li class="footer__contacts-subitem">
+																<a href="tel:+380999999999" class="footer__contacts-link">(099) 999 99 99</a>
+														</li>
+														<li class="footer__contacts-subitem">
+																<a href="tel:+380969999999" class="footer__contacts-link">(096) 999 99 99</a>
+														</li>
+												</ul>
+										</li>
+								</ul>
+						</div>
+						<div class="footer__main-block">
+								<p class="footer__main-col footer__copyright">&copy; Працюємо з 2021 року</p>
+								<div class="footer__main-col footer__glyanec">
+										<svg class="footer__glyanec-icon" width="20" height="21" viewBox="0 0 20 21"
+												 fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+														d="M11.1072 0C6.02956 1.72803 1.74643 5.25083 0 10.5C1.72649 15.6893 5.96941 19.2515 11.1072 21C15.6759 17.4456 18.1672 14.591 20 10.5C17.3693 8.71775 16.2642 7.80021 14.1314 5.04227C11.2738 6.38147 8.78639 7.94215 6.58296 10.443C7.37367 11.5796 8.68652 12.6405 9.74796 13.5121C11.2949 12.365 12.4746 11.2473 13.2387 10.2883C13.7179 10.8791 14.2581 11.2722 14.7727 11.6008C13.4435 13.8825 11.9519 15.1353 10.1099 16.3319C7.34317 14.8539 5.11921 12.2957 4.03831 10.1325C6.06428 6.76193 9.24194 4.48607 12.8526 3.21774C12.2677 2.1839 11.5009 1.22111 11.1072 0Z"
+														fill="#FFD001"/>
+										</svg>
+										<a class="footer__glyanec-link" href="https://glyanec.net" target="_blank">
+												Глянець — розробка інтернет-магазинів
+										</a>
+								</div>
+						</div>
+				</div>
+		</div>
+</footer>
+
+<script src="scripts/jquery-3.5.1.js" defer></script>
+<script src="scripts/slick.min.js" defer></script>
+<script src="scripts/isotope.pkgd.min.js" defer></script>
+<script src="scripts/script.js" defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap"
+				defer></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+$main-black-color: #000000;
+$primary-text-color: #1A202C;
+$secondary-text-color: #FFFFFF;
+$primary-color: #FFD324;
+$secondary-color: #2D3748;
+$danger-color: #DB111D;
+$shadow-item: #8EA2AA;
+
+@function url-variable-colour($colour) {
+    @return "%23" + str-slice("#{$colour}", 2, -1)
+}

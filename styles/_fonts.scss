@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Blogger Sans Regular";
+    src: local("Blogger Sans Regular"), local("BloggerSans-Regular"),
+    url("../fonts/BloggerSans-Regular.woff2") format("woff2"),
+    url("../fonts/BloggerSans-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Blogger Sans Medium";
+    src: local("Blogger Sans Medium"), local("BloggerSans-Medium"),
+    url("../fonts/BloggerSans-Medium.woff2") format("woff2"),
+    url("../fonts/BloggerSans-Medium.woff") format("woff");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Blogger Sans Bold";
+    src: local("Blogger Sans Bold"), local("BloggerSans-Bold"),
+    url("../fonts/BloggerSans-Bold.woff2") format("woff2"),
+    url("../fonts/BloggerSans-Bold.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Proxima Nova Regular";
+    src: local("Proxima Nova Regular"), local("ProximaNova-Regular"),
+    url("../fonts/ProximaNova-Regular.woff2") format("woff2"),
+    url("../fonts/ProximaNova-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Proxima Nova Semibold";
+    src: local("Proxima Nova Semibold"), local("ProximaNova-Semibold"),
+    url("../fonts/ProximaNova-Semibold.woff2") format("woff2"),
+    url("../fonts/ProximaNova-Semibold.woff") format("woff");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Proxima Nova Bold";
+    src: local("Proxima Nova Bold"), local("ProximaNova-Bold"),
+    url("../fonts/ProximaNova-Bold.woff2") format("woff2"),
+    url("../fonts/ProximaNova-Bold.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Proxima Nova Black";
+    src: local("Proxima Nova Black"), local("ProximaNova-Black"),
+    url("../fonts/ProximaNova-Black.woff2") format("woff2"),
+    url("../fonts/ProximaNova-Black.woff") format("woff");
+    font-style: normal;
+    font-weight: 900;
+}

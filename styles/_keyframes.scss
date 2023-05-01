@@ -1,0 +1,17 @@
+@keyframes glyanec-rotate {
+    0% {
+        transform: rotate3d(10, 0, 0, 0)
+    }
+    20% {
+        transform: rotate3d(10, 0, 0, 0)
+    }
+    40% {
+        transform: rotate3d(10, 0, 0, 0)
+    }
+    60% {
+        transform: rotate3d(0, 10, 0, 180deg)
+    }
+    80% {
+        transform: rotate3d(10, 0, 0, 0)
+    }
+}
