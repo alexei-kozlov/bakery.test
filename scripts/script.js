@@ -1,5 +1,11 @@
 ;(function ($) {
     $(function () {
+        
+        // Calculate promoHeight
+        let windowHeight = $(window).height(),
+            headerHeight = $('.header').height(),
+            promoHeight = windowHeight - headerHeight;
+        $('.promo').css('min-height', promoHeight + 'px');
 
         // Initializing the anchor link function
         let anchorLink = function (event) {
@@ -220,7 +226,7 @@ window.addEventListener('load', assortmentInit);
 function initMap() {
     const centerLocation = {lat: 49.22310180771078, lng: 28.398134349481367};
     const bakeryLocation = {lat: 49.22436308170155, lng: 28.403970836411183};
-    const markerIcon = '../img/map-marker-icon.svg';
+    const markerIcon = 'img/map-marker-icon.svg';
     const contentString = document.getElementById('info-location').outerHTML;
     const mapSection = document.getElementById('map');
     const map = new google.maps.Map(mapSection, {
