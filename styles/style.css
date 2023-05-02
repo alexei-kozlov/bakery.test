@@ -1313,7 +1313,7 @@ section:not(:first-of-type, :last-of-type) {
   }
 }
 .promo .container-inner {
-  margin-left: 0;
+  width: 100%;
 }
 .promo__text-block {
   margin: 0 auto 0 0;
